@@ -8,7 +8,8 @@ import os
 from PIL import Image
 from langchain_groq import ChatGroq
 from langchain_chroma import Chroma
-from langchain_community.embeddings import OpenCLIPEmbeddings
+#from langchain_community.embeddings import OpenCLIPEmbeddings
+from langchain_experimental.embeddings import OpenCLIPEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 
 # 1. Configuración de la página (Única al inicio)
