@@ -3,10 +3,8 @@ pandas
 torch --index-url https://download.pytorch.org/whl/cpu
 transformers
 pillow
-open-clip-torch
 langchain>=0.2.6
 langchain-core>=0.2.6
-langchain-experimental
 langchain-groq>=0.1.4
 langchain-chroma>=0.1.4
 chromadb>=0.5.0
